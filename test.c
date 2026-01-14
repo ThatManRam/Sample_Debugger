@@ -1,6 +1,3 @@
 #include <stdio.h>
-
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
+void marker() { puts("marker"); }
+int main() { puts("start"); marker(); puts("end"); return 0; }
